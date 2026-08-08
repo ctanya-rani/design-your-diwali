@@ -47,7 +47,7 @@ This project celebrates **Indian Retro Pop Art** with:
 - Smooth animations and hover effects
 - Fully responsive design for all devices
 
-## 🚀 How to Use
+## 🚀 How to Use Locally
 
 1. **Open the website** - Just open `index.html` in any modern web browser
 2. **Select a room** - Click on any of the four rooms to start decorating
@@ -55,6 +55,49 @@ This project celebrates **Indian Retro Pop Art** with:
 4. **Draw rangoli** - Click "Draw Rangoli" and paint beautiful patterns
 5. **Launch fireworks** - Click "Launch!" for instant celebration
 6. **Clear decorations** - Use the clear buttons to start fresh
+
+## 🚀 Deploy to Vercel
+
+### Option 1: One-Click Deploy (Easiest)
+1. Push your changes to GitHub (already done!)
+2. Go to [vercel.com](https://vercel.com)
+3. Click "New Project"
+4. Select your `design-your-diwali` repository
+5. Click "Deploy" - Vercel will automatically detect it's a static site
+6. Your site will be live in seconds! 🎉
+
+### Option 2: Deploy via Vercel CLI
+```bash
+# Install Vercel CLI if you haven't already
+npm i -g vercel
+
+# From the project directory
+vercel
+
+# Follow the prompts to link to your account and deploy
+```
+
+### Option 3: GitHub Integration
+1. Connect your GitHub account to Vercel
+2. Every push to your repository triggers automatic deployment
+3. Pull requests get automatic preview deployments
+
+### Environment Variables
+No environment variables needed - this is a pure static site!
+
+### Custom Domain
+After deployment:
+1. Go to your Vercel project settings
+2. Add your custom domain in "Domains"
+3. Update your DNS settings
+4. Done!
+
+## 📊 Deployment Info
+
+**Size**: ~10KB (minified HTML, CSS, and JavaScript combined)
+**Build Time**: < 1 second (no build step needed)
+**Performance**: Excellent - fully static site with no server required
+**Caching**: HTML cached for 1 hour, optimal for production
 
 ## 🛠️ Technologies
 
