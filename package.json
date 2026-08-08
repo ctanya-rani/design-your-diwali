@@ -1,0 +1,27 @@
+{
+  "name": "design-your-diwali",
+  "version": "1.0.0",
+  "description": "A vibrant interactive web app to decorate your virtual house with lights, rangoli, and fireworks for Diwali celebration",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html || xdg-open index.html"
+  },
+  "keywords": [
+    "diwali",
+    "decoration",
+    "virtual-house",
+    "interactive",
+    "celebration",
+    "lights",
+    "rangoli",
+    "fireworks",
+    "retro-pop-art",
+    "indian-culture"
+  ],
+  "author": "Design Your Diwali Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctanya-rani/design-your-diwali"
+  }
+}
